@@ -1,6 +1,6 @@
 export class Functions {
     static openPage(url) {
-        cy.visit(url, { timeout:100000});
+        cy.visit(url, { timeout:1000000});
     }
     
     static getElement(locator) {
