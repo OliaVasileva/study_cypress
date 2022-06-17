@@ -16,4 +16,11 @@ export class Constant {
         govPurchaseLine : 'Кредитная линия на исполнение контракта',
         leasing : 'Лизинг'
     }
+
+    static city = 'Москва'
+    static invalidRevenueLeasingForm = '100000'
+    static invalidSumMessage = 'Сумма кредита не может быть больше выручки за последний квартал'
+    static validRevenueLeasingForm = '999888777'
+    static carModel = 'седан'
+    static LeasingMessage = "Чтобы выдать кредит, «Европлан» запросит у вас лицензию"
 }
