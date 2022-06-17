@@ -7,4 +7,13 @@ export class Constant {
         number : '79374351899',
         smsCode : '1234'
     }
+
+    static productNames = {
+        overdraft : 'Овердрафт',
+        turnover : 'Обротный кредит',
+        creditLine : 'Кредитная линия',
+        creditLinePledge : 'Кредитная линия под залог недвижимости',
+        govPurchaseLine : 'Кредитная линия на исполнение контракта',
+        leasing : 'Лизинг'
+    }
 }

@@ -5,4 +5,6 @@ export class Locators {
    // static authNumberInput = 'input[automation-id="entry-form__form-field"]';
     static authNumberInput = '#phoneNumber';
     static authSmsInput = 'input[automation-id="otp-form__code-field"]'; // или просто '#smsCode'
+
+    static ProductNamePanel = '[automation-id="product-name"]'
 }
